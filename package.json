@@ -26,8 +26,14 @@
     "url": "https://github.com/zambodotdev/groq-cascade"
   },
   "homepage": "https://zambo.dev",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
 }
