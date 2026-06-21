@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/groq-cascade.svg)](https://www.npmjs.com/package/groq-cascade) [![npm downloads](https://img.shields.io/npm/dm/groq-cascade.svg)](https://www.npmjs.com/package/groq-cascade) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 # groq-cascade
 
 A resilient multi-model fallback chain for the Groq API. When one model fails, it tries the next. Users always get a response.
