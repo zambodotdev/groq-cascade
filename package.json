@@ -1,0 +1,33 @@
+{
+  "name": "groq-cascade",
+  "version": "1.0.0",
+  "description": "Resilient multi-model fallback chain for the Groq API. When one model fails, the next one tries. Users always get a response.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": [
+    "groq",
+    "llm",
+    "ai",
+    "fallback",
+    "cascade",
+    "resilience",
+    "llama",
+    "mixtral",
+    "groq-sdk"
+  ],
+  "author": "Brennan Zambo <brennanzambo@zambo.dev> (https://zambo.dev)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zambodotdev/groq-cascade"
+  },
+  "homepage": "https://zambo.dev",
+  "engines": { "node": ">=18" },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
